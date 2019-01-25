@@ -5,7 +5,7 @@
 	* Wamp, xamp ou lamp
 
 
-## Importer le fichier tchat.sql après avoir créer la base de donnée dans phpmyadmin
+## Importer le fichier tchat.sql qui se trouve dans le dossier sqlbd après avoir créer la base de donnée dans phpmyadmin
 
 ## Créer au moins deux compte utilisateur en utilisant l'application
 
