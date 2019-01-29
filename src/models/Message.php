@@ -12,57 +12,49 @@
             
         }
 
-        public function getId(): ?int
+        public function getId()
         {
             return $this->id;
         }
     
-        public function getMessage(): ?string
+        public function getMessage()
         {
             return $this->message;
         }
     
-        public function setMessage(string $message): self
+        public function setMessage($message)
         {
             $this->message = $message;
-    
-            return $this;
         }
     
-        public function getReciever(): ?string
+        public function getReciever()
         {
             return $this->reciever;
         }
     
-        public function setReciever(string $reciever): self
+        public function setReciever($reciever)
         {
             $this->reciever = $reciever;
-    
-            return $this;
         }
     
-        public function getSender(): ?string
+        public function getSender()
         {
             return $this->sender;
         }
     
-        public function setSender(string $sender): self
+        public function setSender($sender)
         {
             $this->sender = $sender;
-    
-            return $this;
         }
 
-        public function getDate(): ?date
+        public function getDate()
         {
             return $this->date;
         }
     
-        public function setDate(date $date): self
+        public function setDate($date)
         {
             $this->date = $date;
-    
-            return $this;
         }
 
         public static function sendMessage($tab){
@@ -71,9 +63,4 @@
             $req = $db->prepare($sql);
             $req->execute($i);
         }
-
-
-        
-
-
     }
